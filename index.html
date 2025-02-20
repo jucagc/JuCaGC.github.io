@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+            id="toggle-icon"
+            src="assets/icons/moon.svg"
+            alt="icon theme"
+            class="toggle-theme__icon"
+          />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div
+          data-color="hsl(214, 84%, 56%)"
+          class="colors__items colors__item--blue"
+        ></div>
+        <div
+          data-color="hsl(150, 84%, 56%)"
+          class="colors__items colors__item--green"
+        ></div>
+        <div
+          data-color="hsl(276, 84%, 56%)"
+          class="colors__items colors__item--purple"
+        ></div>
+        <div
+          data-color="hsl(46, 84%, 56%)"
+          class="colors__items colors__item--orange"
+        ></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!--Profile Card-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="images/perfile.png" alt="" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Juan Carlos Garcia Castañeda</h2>
+            <p class="card__subtitle">Data Scientist</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:juan-skyline-gtr@hotmail.com">
+                hades608@gmail.com</a
+              >
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:4432221313"> +524432221313 </a>
+            </div>
+            <p class="card__text">
+              Soy un Licenciado en Informatica Administrativa apasionado por el big data, siempre he disfrutado descubrir la información que ocultan los datos a través de análisis específicos. Además, me fascina predecir futuros inciertos utilizando machine learning, lo que me permite ofrecer soluciones precisas y orientadas a resultados.
+            </p>
+            <p class="card__text">
+              En este tiempo pude destacar mi experiencia y formación especializada con Python, en el campo de la ciencia de datos. Del mismo modo aplicando modelos de machine learning, tanto en entornos de aprendizaje supervisado como no supervisado. Además, he trabajado con algoritmos como Random Forest, Logistic Regression, LightGBM, XGBoost y CatBoost. Así mismo, he incursionado en el campo de las redes neuronales utilizando TensorFlow y PyTorch.
+            </p>
+          </div>
+        </article>
+        <!-- Tarjetas Experiencia -->
+        <article class="card card--esperience">
+          <h2 class="card__title">Experience</h2>
+          <div class="experience">
+            <img
+              src="images/experience.jpg"
+              alt="logo"
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time">Enero 2025-- Actualidad</p>
+              <h3 class="experience__job">Data Science</h3>
+              <p class="experience__description">
+                En este bootcamp, mejoró mis habilidades con proyectos mensuales de ciencia de datos. Cubrimos desde la visualización y análisis de datos hasta la creación de modelos predictivos para problemas del mundo real.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img
+              src="images/TripleTeen.jpg"
+              alt="logo"
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time">Enero 2024 -- Septiembre 2024</p>
+              <h3 class="experience__job">Data Science</h3>
+              <p class="experience__description">
+                Durante 9 meses, participé activamente en la realización de 16 proyectos enfocados en ciencia de datos. Utilizando Python, trabajé en la predicción de diversos modelos tanto para el aprendizaje supervisado como no supervisado. Además, recibí una inducción en las redes neuronales con TensorFlow. Estas experiencias me han brindado un amplio conocimiento y habilidades prácticas en el campo de la ciencia de datos.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img
+              src="images/DevoSantan.png"
+              alt="logo"
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p class="experience__time"> Nov 2019 -- Oct 2021</p>
+              <h3 class="experience__job--unic">DEVOMEX CLOUD SERVISES SA de CV</h3>
+              <p class="experience__description">
+                Realizar la gestión de las actualizaciones y cambios de los aplicativos que operan en los ambientes Pre-productivos y Productivos para Banco Santander USA, Se realisaba coordinación de las áreas que participan en cada uno de los Despliegues, y se Generaba reportes y documentación de los Despliegues realizados.
+              </p>
+            </div>
+          </div>
+        </article>
+        <!--Cierre Tarjetas Experiencia -->
+        <!--CV -->
+        <article class="card card--hobbies">
+          <h2 class="card__title">CV</h2>
+          <div class="card__image-container">
+            <img src="images/cv_imagen.png" alt="CV">
+          </div>
+          <h3 class="hobbie__tittle">Mi cv</h3>
+          <p class="card__text">
+            Te comparto mi CV, donde destaco mi experiencia como Lic. en Informatica Administrativa con especialización en ciencia de datos y machine learning. A través de proyectos de big data y análisis predictivo, he demostrado habilidades en Python, Pandas y modelos de machine learning. ¡Espero que encuentres mi perfil interesante!
+          </p>
+          <button class="cv-button">
+            <a href="https://drive.google.com/file/d/10Gh1lsa88JiYXEPiZYVQ_7jE2QvSQfHo/view?usp=drive_link" target="_blank" download>Descargar CV</a>
+          </button>
+        </article>
+        <!--Cierre CV -->
+        <!--CV -->
+        <article class="card card--hobbies">
+          <h2 class="card__title">¿Tienes un minuto?</h2>
+          <div class="card__video-container">
+            <video class="video" controls src="  "></video>
+          </div>
+          <h3 class="hobbie__tittle">Te presento mi CV digital</h3>
+        </article>
+        <!--INICIO DE HOBBIES-->
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__hobbies card__image-container">
+            <img src="images/musica.png" alt="Hobbi">
+            <h3 class="hobbie__tittle">Escuchar Musica</h3>
+            <p class="card__text">
+              Uno de mis mayores pasatiempos es escuchar música mientras realizo alguna actividad.
+            </p>
+          </div>
+          <div class="card__hobbies card__image-container">
+            <img src="images/coleccionista.png" alt="Hobbi">
+            <h3 class="hobbie__tittle">Música & Ejercicio</h3>
+            <p class="card__text">
+              Como gran apasionado a los carros, tambien se convirtió en Hobby, esto es coleccionando carros a escala 1/24 y 1/18.
+            </p>
+          </div>
+        </article>
+        <!--cIERRE DE HOBBIES-->
+      </section>
+      <!-- Tarjetas de progreso -->
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Programación</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">2</span>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">PYTHON</p>
+                <div class="skills__bar skills__bar--60"></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">SQL</p>
+                <div class="skills__bar skills__bar--40"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Librerías</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">PANDAS</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">SCIKIT-LEARN</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">NUMPY</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MATPLOTIB</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+          </div>
+        </article>
+        <!-- Tarjetas Experiencia -->
+        <article class="card">
+          <h2 class="card__title">OTROS</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">TENSORFLOW</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">PYTORCH</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">POWER BI</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">AWS</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </article>
+        <!-- Proyectos -->
+        <!-- Proyectos 2 -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="images/telec_exp.jpeg"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">Python</span>
+              <span class="project__tag">Skalearn</span>
+              <span class="project__tag">Matplotib</span>
+              <span class="project__tag">ML</span>
+            </div>
+            <h2 class="card__title" style="text-align: center;">Modelado de Churn para una Empresa de Telecomunicaciones</h2>
+            <p class="card_text">
+              Una empresa de telecomunicaciones desea mejorar la retención de sus clientes, identificando aquellos que tienen mayor probabilidad de abandonar el servicio (churn), seleccionando las mejores características para aumentar le precisión del modelo. (SelectKBest,RFE,PCA)
+            </p>
+            <p class="card_text">
+              💡 Se logro una acurracy del 80% solamente con selección de características.
+            </p>
+            <p class="card_text">
+              ✅ El modelo predice correctamente el resultado en el 80% de los casos.
+            </p>
+            <!--Botones Proyectos -->
+            <div class="buttons">
+              <a href="  " target="_blank" class="button button--primary">Code</a>
+              <a href="  " target="_blank" class="button button--second">github</a>
+              <a href="  " target="_blank" class="button button--primary">Linkedin</a>
+              <a href=" " target="_blank" class="button button--second">PDF</a>
+            </div>
+          </div>
+        </article>
+        <!-- Proyectos 2 -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="images/instacart.jpeg"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">PYTHON</span>
+              <span class="project__tag">SQL</span>
+              <span class="project__tag">MATPLOTIB</span>
+              <span class="project__tag">BD</span>
+            </div>
+            <h2 class="card__title">Insights estratégicos para aumentar las ganacias con extracción de datos SQL</h2>
+            <p class="card_text">
+              Instacart es una plataforma de entregas de comestibles donde la clientela puede registrar un pedido y hacer que se lo entreguen, similar a Uber Eats y Door Dash.🏪
+            </p>
+            <p class="card_text">
+              ✅ Se ofrecen insights estratégicos para aumentar las ganacias. 💰
+            </p>
+            <p class="card_text">
+              Conexión a la base de datos SQL con python. ⏏️
+            </p>
+            <!--Botones Proyectos -->
+            <div class="buttons">
+              <a href="  " class="button button--primary">Code</a>
+              <a href="  " target="_blank" class="button button--second">github</a>
+              <a href="  " target="_blank" class="button button--primary">Linkedin</a>
+              <a href="  " target="_blank" class="button button--second">PDF</a>
+            </div>
+          </div>
+        </article>
+        <!-- Proyectos -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="images/Streamlit.png"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">Streamlit</span>
+              <span class="project__tag">Ploty</span>
+              <span class="project__tag">Pandas</span>
+              <span class="project__tag">Python</span>
+            </div>
+            <h2 class="card__title">Mejora tus ganancias con insigths estratégicos</h2>
+            <p class="card_text">🚀 Impulsa tu tienda usando un análisis de datos <b>estratégicos</b> 📊</p>
+            <p class="card_text">
+              💡 Una tienda online de moda, con presencia en todo Brasil, necesita impulsar su rendimiento utilizando sus datos de manera estratégica. 🌟👗
+            </p>
+            <p class="card_text">
+              Se ofrece al cliente información valiosa sobre sus <b>ventas</b> para asi tomar una decisión y mejorar las ganancias de la tienda. 👠🔍💡
+            </p>
+            <!--Botones Proyectos -->
+            <div class="buttons">
+              <a href="  " target="_blank" class="button button--second">github</a>
+              <a href="  " target="_blank" class="button button--primary">Linkedin</a>
+              <a href="  " target="_blank" class="button button--second">APP</a>
+            </div>
+          </div>
+        </article>
+        <!-- Proyectos -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="images/TELECOM.png"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">Streamlit</span>
+              <span class="project__tag">Matplotib</span>
+              <span class="project__tag">Scikit-Learn</span>
+              <span class="project__tag">ML</span>
+            </div>
+            <h2 class="card__title">No dejes que tus clientes se vayan</h2>
+          <p class="card_text">
+          Al operador de telecomunicaciones <b>Interconnect</b> le gustaría poder pronosticar su tasa de cancelación de clientes 📉. Si se descubre que un usuario o usuaria planea irse 🏃‍♂️🏃‍♀️, se le ofrecerán <b>códigos promocionales</b> 🎟️ y opciones de planes especiales 🌟.
+          </p>
+          <p class="card_text">
+           El equipo de marketing de Interconnect ha recopilado algunos de los datos personales de sus clientes 🗂️, incluyendo información sobre sus planes y contratos 📑.
+
+          </p>
+          <!--Botones Proyectos -->
+          <div class="buttons">
+            <a href="  " target="_blank" class="button button--primary">Code</a>
+            <a href="  " target="_blank" class="button button--second">App</a>
+            <a href="  " target="_blank" class="button button--primary">Linkedin</a>
+            <a href="  " target="_blank" class="button button--second">PDF</a>
+          </div>
+                    
+        </article>              
+        
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/proximamente.png"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">Pandas</span>
+              <span class="project__tag">BigData</span>
+              <span class="project__tag">Matplotib</span>
+              <span class="project__tag">Dask</span>
+             
+             
+             
+            </div>
+       
+          <h2 class="card__title">Impulsa tus ganancias con los grandes géneros del cine</h2>
+          <p class="card_text">
+         🚀 Un cliente pide insights estratégicos sobre los géneros más rentables de la historia ya que planea invertir en diferentes films para generar las <b>mayores ganancias</b>.</p>
+
+         <p>Nuestro objetivo es desglosar millones de datos que incluyen:</p>
+          <p class="card_text">⭐ Reseñas y calificaciones</p>
+          <p class="card_text">💰 Ganancias y costos de producción</p>
+          <p class="card_text">⏳ Duración de las películas</p>
+          
+        
+          <!--Botones Proyectos -->
+          <div class="buttons">
+            <a href=" " target="_blank" class="button button--primary">Code</a>
+            <a href=" " target="_blank" class="button button--second">github</a>
+            <a href=" " target="_blank" class="button button--primary">Linkedin</a>
+            <a href=" " target="_blank" class="button button--second">PDF</a>
+          </div>
+                    
+        </article>
+        
+
+                                                         <!-- Proyectos -->
+           <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/proximamente.png"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">Pandas</span>
+              <span class="project__tag">Matplotib</span>
+              <span class="project__tag">Scikit-Learn</span>
+              </div>
+       
+          <h2 class="card__title">Financial Fraud Detection</h2>
+          <p class="card_text">
+          💼 En este desafiante proyecto, nos enfrentamos a una base de datos masiva de seis millones de transacciones. Nuestra tarea principal es construir un modelo de machine learning capaz de identificar <b>transacciones fraudulentas</b>, ¡y solo contamos con el 0.1% de datos etiquetados como fraudulentos! 😱
+
+          </p>
+          <p class="card_text">
+           💡💡 ¡Desarrollar un modelo preciso en estas condiciones fue todo un reto! Pero con el poder del machine learning y la dedicación, estamos un paso más cerca de combatir el fraude financiero de manera efectiva. 💪
+          </p>
+          <!--Botones Proyectos -->
+          <div class="buttons">
+            <!-- <a href="projects/KNN.html" target="_blank" class="button button--primary">Code</a> -->
+            <a href=" " target="_blank" class="button button--second">github</a>
+            <a href=" " target="_blank" class="button button--primary">Linkedin</a>
+            <a href=" " target="_blank" class="button button--second">PDF</a>
+          </div>
+          <!-- Proyectos 2 -->
+        </article>
+
+         <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/proximamente.png"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#KNN</span>
+              <span class="project__tag">#Matplotib</span>
+              <span class="project__tag">#Numpy</span>
+               <span class="project__tag">#Scikit-Learn</span>
+            </div>
+       
+          <h2 class="card__title">¿Sabes como manejar tus valores faltantes/ausentes?</h2>
+          <p class="card_text">
+          A diferencia de otras técnicas como la sustitución por la media o la mediana, KNNImputer no altera de una manera abrupta la distribución de tus datos. En cambio, utiliza la información de los k vecinos más cercanos en el espacio de características para imputar valores faltantes de manera más cercana.
+
+          </p>
+          <p class="card_text">
+           💡 ¡Descubre cómo funciona KNNImputer y mejora tus habilidades en el manejo de datos!
+          </p>
+          <!--Botones Proyectos -->
+          <div class="buttons">
+            <a href=" " target="_blank" class="button button--primary">Code</a>
+            <a href=" " target="_blank" class="button button--second">github</a>
+            <a href=" " target="_blank" class="button button--primary">Linkedin</a>
+            <a href=" " target="_blank" class="button button--second">PDF</a>
+          </div>
+                    
+        </article>
+
+                                       <!-- Proyectos -->
+    
+        
+         <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/proximamente.png"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#</span>
+              <span class="project__tag">#</span>
+              <span class="project__tag">#</span>
+               <span class="project__tag">#</span>
+            </div>
+       
+          <h2 class="card__title">Comming Soon</h2>
+          <p class="card_text">
+          Proximamente
+
+          </p>
+          <p class="card_text">
+           💡 
+          </p>
+          <!--Botones Proyectos -->
+          <div class="buttons">
+            <a href="#" target="_blank" class="button button--primary">Code</a>
+            <a href="#" target="_blank" class="button button--second">github</a>
+            <a href="#" target="_blank" class="button button--primary">Linkedin</a>
+            <a href="#" target="_blank" class="button button--second">PDF</a>
+          </div>
+                    
+        </article>
+        
+                                                <!-- Proyectos -->
+
+        
+         <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/proximamente.png"
+              alt="project"
+              class="card__image"
+            />
+          </div>
+          
+          <div class="project">
+             <div class="project__tags">
+             <span class="project__tag">#</span>
+             <span class="project__tag">#</span>
+             <span class="project__tag">#</span>
+             <span class="project__tag">#</span>
+          </div>
+       
+          <h2 class="card__title">Comming Soon</h2>
+          <p class="card_text">
+          Proximamente
+
+          </p>
+          <p class="card_text">
+           💡 
+          </p>
+          <!--Botones Proyectos -->
+          <div class="buttons">
+            <a href="#" target="_blank" class="button button--primary">Code</a>
+            <a href="#" target="_blank" class="button button--second">github</a>
+            <a href="#" target="_blank" class="button button--primary">Linkedin</a>
+             <a href="#" target="_blank" class="button button--second">PDF</a>
+          </div>
+                    
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
